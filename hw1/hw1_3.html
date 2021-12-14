@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Float Style Property </title>
+		<meta charset="utf-8"/>
+<style>
+body > div {
+        width: 100px;
+        height: 100px;
+       	background-color: red; 
+        margin: 10px;
+        padding: 10px;
+        float: left;
+	color: white;
+	line-height: 100px;
+	text-align: center;
+	font-size: 200%;
+}
+#box1:hover {background-color: green;
+left: 20px; top: 20px; position:relative; }
+
+#box2:hover {background-color: green;
+right: 20px; bottom: 20px; position:relative; }
+
+</style>
+</head>
+<body>
+	<h1>div 배치</h1>
+	<hr>
+        <div>A</div>
+        <div id="box1">B</div>
+        <div>C</div>
+        <div>D</div>
+        <div id="box2">E</div>
+        <div>F</div>
+</body>
+</html>
